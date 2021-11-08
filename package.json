@@ -1,0 +1,42 @@
+{
+  "name": "sigmit-backend",
+  "version": "1.0.0",
+  "description": "Last Challenge",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grasssi/Sigmit-BackEnd.git"
+  },
+  "keywords": [
+    "sigmit"
+  ],
+  "author": "Grassi Amine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grasssi/Sigmit-BackEnd/issues"
+  },
+  "homepage": "https://github.com/grasssi/Sigmit-BackEnd#readme",
+  "dependencies": {
+    "async": "^3.2.1",
+    "bcrypt": "^5.0.1",
+    "connect-flash": "^0.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.0.5",
+    "mongoose-unique-validator": "^2.0.3",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.6.3",
+    "nodemon": "^2.0.14",
+    "passport": "^0.4.1",
+    "passport-http-bearer": "^1.0.1"
+  }
+}
